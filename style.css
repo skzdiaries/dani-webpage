@@ -1,0 +1,105 @@
+
+@keyframes fadeIn
+ {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+#erm{
+    
+    color:#435a8a;
+    /* text-align: center; */
+    top: auto;
+    font-size: 5.812vw;
+    font-weight: lighter; 
+    /* font-style: italic; */
+   /* font-style:bold; */
+    font-family: Didot, serif;
+  animation: fadeIn 2s ease-in-out forwards;
+
+
+}
+.favs-box
+{
+/* width: 400px;
+min-height: 450px; 
+text-align: center;
+background-color: rgb(255, 255, 255);
+/* border: 3px dashed #435a8a; */
+ border-width: 9px;
+          border-style: solid;
+          border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round;
+           
+
+/* border-radius: 4.7vw; */
+background-color: rgb(255, 255, 255);
+box-shadow: 0vw 0vw 2.3vw rgba(80, 116, 167, 0.5);
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 0;
+align-items: center;
+ animation: fadeIn 2s ease-in-out forwards;
+}
+
+.rounded-box
+{
+width: 400px;
+min-height: 450px; 
+text-align: center;
+background-color: rgb(201, 225, 252);
+/* border: 3px dashed #435a8a; */
+border-width: 9px;
+          border-style: solid;
+          border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round;
+/* border-radius: 4.7vw; */
+box-shadow: 0vw 0vw 2.3vw rgba(80, 116, 167, 0.5); 
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 0;
+align-items: center;
+ animation: fadeIn 2s ease-in-out forwards;
+}
+
+.socials-box
+{
+/* width: 400px;
+min-height: 450px; 
+text-align: center;
+background-color: rgb(255, 255, 255);
+/* border: 3px dashed #435a8a; */
+ /* border-width: 9px;
+          border-style: solid;
+          border-image: url("https://file.garden/ZZ2PUl9MPilKgIvB/collection/borders/fp9ci4.png") 8 fill round; */
+           
+
+/* border-radius: 4.7vw; */
+background-color: rgb(196, 208, 225);
+box-shadow: 0vw 0vw 2.3vw rgba(193, 207, 228, 0.5);
+display: flex;
+justify-content: center;
+flex-direction: column;
+gap: 0;
+align-items: center;
+ animation: fadeIn 2s ease-in-out forwards;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2vw;
+    box-sizing: border-box;
+}
+a{
+   
+   margin-right: 30px;
+   text-align: center;
+    text-decoration: none;
+}
+*{
+    
+    box-sizing: border-box;
+}
+
